@@ -61,22 +61,3 @@ class ExpenseDatabase:
     def to_dict(self): 
         
         return self.expenses
-
-expense_1 = Expense(title = 'Out_of_pocket', amount = 2000)
-expense_2 = Expense(title = 'Fuel', amount = 5000.50)
-expense_db = ExpenseDatabase()
-
-# expense_1 = Expense(title = 'Out_of_pocket', amount = 2000)
-# expense_2 = Expense(title = 'Fuel', amount = 5000.50)
-# expense_3 = Expense(title = 'Fuel', amount = 7000.50)
-# print(expense_1.update(title='Out_of_pocket', amount= 3000))
-
-# print(expense_1.to_dict())
-# print(expense_2.to_dict())
-# print(expense_3.to_dict())
-
-# expense_db.add_expense(expense_1)
-# expense_db.add_expense(expense_2)
-# print(expense_db.expenses)  
-
-
